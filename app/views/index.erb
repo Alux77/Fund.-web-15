@@ -1,0 +1,18 @@
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Baloo+Bhaina" rel="stylesheet">
+</head>
+
+<header>
+  <img id="logo" src="codea-logo.png">
+</header>
+
+<h1>Slot Machine</h1>
+
+<div id="slot-machine">
+  <form action="/rolls" method="post">
+    <input id="play" type="submit" value="SPIN & PLAY">
+  </form>
+  <div id="die">
+    <%= erb :_die_roll, layout: false %>
+  </div>
+</div>

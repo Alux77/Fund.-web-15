@@ -1,0 +1,74 @@
+header {
+  background-color: black;
+  background-size: 50px;
+
+}
+
+#logo {
+  display: block;
+  margin: 0 auto;
+}
+
+h1 {
+  color: black;
+  font-size: 70px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Baloo Bhaina', cursive;
+}
+
+.container {
+  margin: 0 auto;
+  width: 768px;
+  padding: 0px 20px 20px 20px;
+}
+
+th {
+  text-align: left;
+}
+
+#image-1 {
+  position: relative;
+  top: 103px;
+  left: 58px;
+}
+
+#image-2 {
+  position: relative;
+  top: 103px;
+  left: 76px;
+}
+
+#image-3 {
+  position: relative;
+  top: 103px;
+  left: 94px;
+}
+
+div #slot-machine {
+  width: 406px;
+  height: 331px;
+  background: url("../slot-machine-3.png") no-repeat;
+  margin: 0 auto;
+}
+
+#win {
+  font-size: 50px;
+  position: relative;
+  top: 275px;
+  color: #FF0000;
+}
+
+form {
+  position: relative;
+  top: 351px;
+}
+
+#play {
+  width: 406px;
+  height: 40px;
+  background-color: #1F8CD1;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2em;
+}
